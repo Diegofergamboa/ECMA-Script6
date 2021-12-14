@@ -28,3 +28,34 @@ console.log(string.padStart(8, 'hi '))
 const object = {
     runa: 'runa' , // Al final dejar la coma, dice que se puede agregar otro elemento sin problema.
 }
+
+
+
+const helloWorld = () => {
+    return new Promise((resolve, reject) => {
+        (false)
+        ? setTimeout(() => resolve('hello World') ,7000)
+        : reject(new Error('Test error'));
+    })
+};
+
+const helloAsync = async () => {
+    const hello = await helloWorld();
+    console.log(hello);
+}
+
+helloAsync();
+
+
+const anotherFunction = async () => {
+    try {
+        const hello = await await helloWorld();
+        console.log(hello);
+    } catch (error) {
+        console.log(error);
+    }
+};
+
+anotherFunction();
+
+
