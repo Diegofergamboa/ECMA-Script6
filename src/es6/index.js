@@ -46,3 +46,25 @@ let person = {
 
 let {name, age, country} = person
 console.log(name);
+
+//operador de propagación
+
+let team1 = ['oscar', 'diego', 'ricardo'];
+let team2 = ['valeria', 'pedro', 'camilo'];
+
+let education = ['David', ... team1, ... team2];
+console.log(education);
+
+//asignaciones 
+{
+    var global = 'globalvar' ;
+}
+{
+    let globallet = 'global let' ;
+    console.log(globallet);
+}
+
+console.log(global);
+
+// Las constantes no se pueden reasignar
+const a = 'b';
