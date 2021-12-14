@@ -40,9 +40,9 @@ let person = {
     'age': 25 ,
     'country' : 'colombia'
 }
-console.log(person.name);
-console.log(person.age);
-console.log(person.country);
+// console.log(person.name);
+// console.log(person.age);
+// console.log(person.country);
 
 let {name, age, country} = person
-console.log(name, age, country);
+console.log(name);
