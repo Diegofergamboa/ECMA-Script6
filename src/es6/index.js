@@ -1,18 +1,18 @@
 
-function newFunction(name, age, country) {
-    var name = name || 'oscar' ;
-    var name = age || 25 ;
-    var name = country || 'country' ;
-    console.log(name, age, country);
-}
+// function newFunction(name, age, country) {
+//     var name = name || 'oscar' ;
+//     var name = age || 25 ;
+//     var name = country || 'country' ;
+//     console.log(name, age, country);
+// }
 
-// es6 
+// // es6 
 
-function newFunction2(name = 'scar' , age = 32 , country="MX") {
-    console.log(name, age, country)
-}
-newFunction2();
-newFunction2('diego', 1, 'colombia');
+// function newFunction2(name = 'scar' , age = 32 , country="MX") {
+//     console.log(name, age, country)
+// }
+// newFunction2();
+// newFunction2('diego', 1, 'colombia');
 
 // template literal
 
@@ -68,3 +68,44 @@ console.log(global);
 
 // Las constantes no se pueden reasignar
 const a = 'b';
+
+// objetos mejorada
+
+let name = 'diego';
+let age = 25;
+
+obj = {name: name , age: age};
+
+// es6
+
+obj2 = {name,edad};
+
+// arrow functions
+
+const names = [
+    {name: 'Diego' , age : 32},
+    {name: 'jose' , age : 23},
+    {name: 'pedro' , age : 2}
+]
+
+let listofname = names.map(function (item) {
+    console.log(item.name);
+})
+
+// es6
+
+let listOfNames = names.map(item => console.log(item.name));
+
+const listofNames3 = (name, main) => {
+    console.log(name, main);
+}
+
+const listofName4 = name => {
+    console.log("aqui va mi otro codigo");
+}
+
+const square = num => num * num;
+
+// promesas 
+
+
