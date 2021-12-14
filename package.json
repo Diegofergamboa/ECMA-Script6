@@ -1,0 +1,19 @@
+{
+  "name": "ecma-script6",
+  "version": "1.0.0",
+  "description": "Estudiando ECMAScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diegofergamboa/ECMA-Script6.git"
+  },
+  "author": "diegofergamboa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diegofergamboa/ECMA-Script6/issues"
+  },
+  "homepage": "https://github.com/Diegofergamboa/ECMA-Script6#readme"
+}
