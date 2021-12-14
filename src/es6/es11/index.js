@@ -1,6 +1,8 @@
 // ES 11
 
-//dinamic import, hacer importación de forma dinámica par apoder llamar piezas de codigo para optimizar el proyecto
+//dinamic import
+//, hacer importación de forma dinámica para poder llamar piezas de 
+// codigo para optimizar el proyecto
 
 const button = document.getElementById('btn');
 
